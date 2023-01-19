@@ -791,7 +791,65 @@ gap: 10px;
   transition-duration: 250ms;
   transition-timing-function: var(--cubic);
 }
+/* ----------------------------------розсилка футера-------------------------------------------------- */
 
+ .emailing-form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+
+ }
+ .mailing-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14px;
+  text-transform: uppercase;
+  color: var(--basic-white);
+
+  margin-bottom: 20px;
+ }
+
+.mail-input {
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  width: 358px;
+  height: 50px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+
+}
+
+
+.mailing-button {
+    display: block;
+    margin-top: 200px;
+    margin: auto;
+    border-radius: 4px;
+    padding: 10px 52px;
+  
+    background-color: rgba(24, 140, 232, 1);
+    color: var(--basic-white);
+    border: none;
+  
+    font-weight: 700;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
+  
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+  
+    transition-property: box-shadow;
+    transition-duration: 250ms;
+    transition-timing-function: var(--cubic);
+}
+    
+
+/* ---------------------------------Модалка--------------------------- */
+
+/* -------------------------------позиціонування ----------------------*/
 .backdrop {
   position: fixed;
   top: 0;
@@ -810,6 +868,11 @@ gap: 10px;
   position: absolute;
   top: 50%;
   left: 50%;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 41px;
+  padding-right: 41px;
+
   transform: translate(-50%, -50%) scale(1);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
@@ -857,5 +920,192 @@ gap: 10px;
 
 }
 
+/* ---------------------оформлення начиннки модалки------------------- */
 
+.modal-button {
+
+  /* gперевірити розміри батона */
+    display: block;
+    margin-top: 200px;
+    margin: auto;
+    border-radius: 4px;
+    padding: 10px 52px;
+  
+    background-color: rgba(24, 140, 232, 1);
+    color: var(--basic-white);
+    border: none;
+  
+    font-weight: 700;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
+    
+    cursor: pointer;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+
+    transition-property: box-shadow;
+    transition-duration: 250ms;
+    transition-timing-function: var(--cubic);
+}
+
+
+/* -----------------------modal --------------------------------------- */
+
+.modal-title {
+  text-align: center;
+  margin-bottom: 12px;
+
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.15;
+
+  color: #212121;
+}
+
+.input-wrap {
+
+border: 1px solid rgba(33, 33, 33, 0.2);
+position: relative;
+border-radius: 4px;
+
+}
+
+.modal-input {
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-radius: 4px;
+  padding-left: 32px;
+  outline: transparent;
+}
+
+.input-wrap:hover,
+.input-wrap:focus {
+  border: 1px solid var(--accent-color);
+}
+
+.input-wrap:hover  .modal-icon,
+.input-wrap:focus  .modal-icon{
+  fill: var(--accent-color);
+}
+
+.input-text {
+
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+
+  letter-spacing: 0.01em;
+  margin-bottom: 10px;
+}
+
+.modal-icon {
+  position: absolute;
+  left: 7px;
+  top: 50%;
+  transform: translateY(-50%);
+  
+}
+
+.input-message {
+    width: 100%;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    color: rgba(117, 117, 117, 0.5);
+    font-size: 12px;
+    font-weight: 400;
+    outline: transparent;
+
+    padding: 10px;
+    resize: none;
+}
+
+.check-text {
+  display: flex;
+  margin-top: 0;
+  align-items: center;
+  gap: 4px;
+  margin-bottom: 0;
+  
+
+  color: rgba(117, 117, 117, 1);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.agreement-doc {
+  color: rgba(33, 150, 243, 1);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+}
+  .check-text span {
+    content: '';
+    width: 16px;
+    height: 15px;
+    border: 1px solid rgba(33, 33, 33, 1);
+    border-radius: 2px;
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: baseline;
+}
+
+.modal-check:checked + .check-text span {
+  background-color: rgba(33, 150, 243, 1);
+  border: none;
+} 
+
+.input-message:hover {
+ color: var(--accent-color);
+ border: 1px solid var(--accent-color);
+}
+
+.agreement-doc {
+  text-decoration-skip-ink: none;
+}
+
+
+
+
+/* .check-text::before {
+  content: '';
+  width: 16px;
+  height: 15px;
+  border: 1px solid rgba(33, 33, 33, 1);
+  border-radius: 2px;
+  margin-right: 5px;
+}
+
+.modal-check:checked + .check-text::before {
+  background-color: rgba(33, 150, 243, 1);
+  border: none;
+
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+} */
+
+
+
+
+
+
+
+/* .modal-input:invalid {
+  background-color: #fff;
+}
+
+
+.modal-input:not(:focus):valid{
+  background-color: rgba(105, 233, 137, 0.418);
+
+}
+
+.modal-input:not(:focus):invalid {
+  background-color: rgba(224, 204, 204, 0.384);
+} */
 
