@@ -18,6 +18,7 @@
     <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
+    
     <header>
       <div class="container container-header">
         <nav class="header-navigation">
@@ -87,17 +88,17 @@
 
             <li class="project">
               <a class="section-link" href="">
-                <div class="project-overlay">
-                  <img
-                    src="./images/portfolio/neworlean.jpg"
-                    alt="Постер з двома чоловіками, що грають в баскетбол"
-                    width="370"
-                  />
-                  <p class="project-paragrapf">
+               <div class="project-overlay">
+                 <img
+                  src="./images/portfolio/neworlean.jpg"
+                  alt="Постер з двома чоловіками, що грають в баскетбол"
+                  width="370"
+                />
+                 <p class="project-paragrapf">
                     Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
                     відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
-                  </p>
-                </div>
+                </p>
+               </div>
                 <div class="project-text-block">
                   <h2 class="project-title">Постер New Orlean vs Golden Star</h2>
                   <p class="project-text">Дизайн</p>
@@ -107,12 +108,12 @@
 
             <li class="project">
               <a class="section-link" href="">
-                <div class="project-overlay">
-                  <img src="./images/portfolio/seafood.jpg" alt="Логотип ресторану морепродуктів" width="370" />
-                  <p class="project-paragrapf">
-                    Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
-                    відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
-                  </p>
+              <div class="project-overlay">
+                <img src="./images/portfolio/seafood.jpg" alt="Логотип ресторану морепродуктів" width="370" />
+                <p class="project-paragrapf">
+                  Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
+                  відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
+                </p>
                 </div>
                 <div class="project-text-block">
                   <h2 class="project-title">Ресторан Seafood</h2>
@@ -124,11 +125,11 @@
             <li class="project">
               <a class="section-link" href="">
                 <div class="project-overlay">
-                  <img src="./images/portfolio/prime.jpg" alt="Чорні навушники на білому фоні" width="370" />
-                  <p class="project-paragrapf">
+                <img src="./images/portfolio/prime.jpg" alt="Чорні навушники на білому фоні" width="370" />
+                <p class="project-paragrapf">
                     Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
                     відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
-                  </p>
+                </p>
                 </div>
                 <div class="project-text-block">
                   <h2 class="project-title">Проєкт Prime</h2>
@@ -140,11 +141,11 @@
             <li class="project">
               <a class="section-link" href="">
                 <div class="project-overlay">
-                  <img src="./images/portfolio/box.jpg" alt="Дві коробки на білому фоні" width="370" />
-                  <p class="project-paragrapf">
+                <img src="./images/portfolio/box.jpg" alt="Дві коробки на білому фоні" width="370" />
+                <p class="project-paragrapf">
                     Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
                     відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
-                  </p>
+                </p>
                 </div>
                 <div class="project-text-block">
                   <h2 class="project-title">Проєкт Boxes</h2>
@@ -156,11 +157,11 @@
             <li class="project">
               <a class="section-link" href="">
                 <div class="project-overlay">
-                  <img src="./images/portfolio/monitor.jpg" alt="Монітор із описом проєкту" width="370" />
-                  <p class="project-paragrapf">
+                <img src="./images/portfolio/monitor.jpg" alt="Монітор із описом проєкту" width="370" />
+                <p class="project-paragrapf">
                     Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
                     відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
-                  </p>
+                </p>
                 </div>
                 <div class="project-text-block">
                   <h2 class="project-title">Inspiration has no Borders</h2>
@@ -172,11 +173,11 @@
             <li class="project">
               <a class="section-link" href="">
                 <div class="project-overlay">
-                  <img src="./images/portfolio/magazine.jpg" alt="Розгортка журналу" width="370" />
-                  <p class="project-paragrapf">
+                <img src="./images/portfolio/magazine.jpg" alt="Розгортка журналу" width="370" />
+                <p class="project-paragrapf">
                     Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
                     відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
-                  </p>
+                </p>
                 </div>
                 <div class="project-text-block">
                   <h2 class="project-title">Видання Limited Edition</h2>
@@ -188,11 +189,11 @@
             <li class="project">
               <a class="section-link" href="">
                 <div class="project-overlay">
-                  <img src="./images/portfolio/lab.jpg" alt="Макет проєкту" width="370" />
-                  <p class="project-paragrapf">
+                <img src="./images/portfolio/lab.jpg" alt="Макет проєкту" width="370" />
+                <p class="project-paragrapf">
                     Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
                     відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
-                  </p>
+                </p>
                 </div>
                 <div class="project-text-block">
                   <h2 class="project-title">Проєкт LAB</h2>
@@ -204,15 +205,15 @@
             <li class="project">
               <a class="section-link" href="">
                 <div class="project-overlay">
-                  <img
-                    src="./images/portfolio/business.jpg"
-                    alt="Ноутбук із заставкою прєкту та руками на клавіатурі"
-                    width="370"
-                  />
-                  <p class="project-paragrapf">
+                <img
+                  src="./images/portfolio/business.jpg"
+                  alt="Ноутбук із заставкою прєкту та руками на клавіатурі"
+                  width="370"
+                />
+                <p class="project-paragrapf">
                     Ресурс пропонує комплексні пропозиції з різним рівнем функціоналу та сервісів. Все це дозволить
                     відвідувачу отримати вичерпні відомості про компанію чи приватну особу.
-                  </p>
+                </p>
                 </div>
                 <div class="project-text-block">
                   <h2 class="project-title">Growing Business</h2>
@@ -237,15 +238,15 @@
                     href="https://www.google.com/maps/place/GlobalLogic/data=!4m7!3m6!1s0x473add3457831ed7:0x76c75eca488087b6!8m2!3d49.8379832!4d24.0086337!16s%2Fg%2F11h6slklg1!19sChIJ1x6DVzTdOkcRtoeASMpex3Y?authuser=0&hl=uk&rclk=1"
                     target="_blank"
                     rel="noreferrer noopener nofollow"
-                    class="footer-location"
+                    class="location"
                     >м. Київ, пр-т Лесі Українки, 26
                   </a>
                 </li>
                 <li>
-                  <a href="mailto:info@devstudio.com" class="footer-mail">info@devstudio.com</a>
+                  <a href="mailto:info@devstudio.com" class="mail">info@devstudio.com</a>
                 </li>
                 <li>
-                  <a href="tel.+380961111111" class="footer-phone">+38 096 111 11 11</a>
+                  <a href="tel.+380961111111" class="phone">+38 096 111 11 11</a>
                 </li>
               </ul>
             </address>
@@ -282,20 +283,6 @@
                 </a>
               </li>
             </ul>
-          </div>
-
-          <div class="emailing">
-            <p class="mailing-title">Підпишіться на розсилку</p>
-            <form class="emailing-form">
-              <label for="user-email"></label>
-              <input type="text" class="mail-input" name="email" id="user-email" placeholder="E-mail" />
-              <button type="submit" class="mailing-button">
-                Підписатися
-                <svg class="mailing-icon" width="24" height="24">
-                  <use href="./images/icons.svg#icon-send"></use>
-                </svg>
-              </button>
-            </form>
           </div>
         </div>
       </section>
