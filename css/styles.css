@@ -455,7 +455,12 @@ img {
   transition-timing-function: var(--cubic);
 }
 
-.social-link:hover,
+.social-link:hover .social-icon,
+.social-link:focus .social-icon {
+  fill: var(--basic-white);
+}
+
+.social-link:hover ,
 .social-link:focus {
   background-color: var(--accent-color);
 }
@@ -754,7 +759,6 @@ img {
   height: 20px;
   fill: var(--basic-white);
 
-  transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: var(--cubic);
 }
