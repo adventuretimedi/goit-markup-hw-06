@@ -791,7 +791,6 @@ img {
 .mail-input {
   background-color: transparent;
   padding-left: 16px;
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.25px;
@@ -802,7 +801,14 @@ img {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   outline: transparent;
-  color: var(--mail-input-grey);
+  color: var(--footer-contacts-soft-grey);
+}
+
+.mail-input::placeholder {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.25px;
+  color: var(--footer-contacts-soft-grey);
 }
 
 .mailing-button {
@@ -988,6 +994,7 @@ fill: var(--accent-color);
   border-radius: 4px;
   padding-left: 32px;
   outline: transparent;
+  cursor: pointer;
 }
 
 .input-wrap:hover,
@@ -1034,6 +1041,7 @@ fill: var(--accent-color);
   /* padding-top: 12px;
   padding-left: 16; */
   resize: none;
+  cursor: pointer;
 
   /* transition-property: border, color;
   transition-duration: 250ms;
@@ -1086,6 +1094,19 @@ fill: var(--accent-color);
 .modal-check:checked + .check-text span {
   background-color: var(--accent-color);
   border: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(50%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 /* .input-message:hover,
