@@ -851,6 +851,7 @@ img {
   transition-timing-function: var(--cubic);
 }
 
+
 .modal {
   width: 528px;
   position: absolute;
