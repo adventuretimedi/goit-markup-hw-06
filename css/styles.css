@@ -853,7 +853,6 @@ img {
 
 .modal {
   width: 528px;
-  height: 581px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -919,8 +918,9 @@ fill: var(--accent-color);
 .modal-button {
 
   display: block;
-  margin-top: 200px;
-  margin: auto;
+
+  margin-left:  auto;
+  margin-right: auto;
   margin-top: 30px;
   border-radius: 4px;
   padding: 10px 52px;
